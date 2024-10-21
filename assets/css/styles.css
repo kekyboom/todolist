@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f3fffb;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 4vh;
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    padding: 1vh;
+    height: 70vh;
+
+}
+
+.input-section {
+    padding: 3vh;
+}
+
+#todo-input {
+    background-color: #bff3f0;
+    width: 60vh;
+    height: 2vh;
+    font-size: 2vh;
+    border: none;
+    padding: 1vh;
+
+}
+
+#add-btn {
+    background-color: #2a7883;
+    color: #ffffff;
+    width: 10vh;
+    height: 4vh;
+    font-size: 2vh;
+    border: none;
+}
+
+.counter {
+    background-color: #a9e9e9;
+    padding: 1vh 2vh;
+    width: 5vh;
+}
+
+#todo-list {
+    padding: 2vh;
+}
+
+.tasks-added {
+    display: flex;
+    justify-content: space-between;
+    width: 73vh;
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+
+
+
+input[type="checkbox"] {
+    transform: scale(2.5);
+    -webkit-transform: scale(2.5); 
+    margin: 10px;
+    accent-color: #2a7883;
+}
+
+#delete-btn {
+    background-color: #2a7883;
+    color: #ffffff;
+    width: 15vh;
+    height: 4vh;
+    font-size: 2vh;
+    padding: 1vh;
+    border: none;
+}
